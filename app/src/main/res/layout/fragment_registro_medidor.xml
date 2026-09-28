@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nuevo_registro_de_medidor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccione_tipo_de_medidor" />
+
+    <RadioGroup
+        android:id="@+id/rgTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+        <RadioButton android:id="@+id/rbAgua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agua" />
+        <RadioButton android:id="@+id/rbLuz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/luz" />
+        <RadioButton android:id="@+id/rbGas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gas" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/ingrese_valor_actual"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Ej: 21/01/2026"
+        android:inputType="date"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_medici_n"
+        android:backgroundTint="@color/purple_500" />
+</LinearLayout>

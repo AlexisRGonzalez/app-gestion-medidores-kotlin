@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Exa_p2_AlexisR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_lista">Mis Medidores</string>
+    <string name="boton_agregar_medidor">Boton para agregar nuevo medidor</string>
+    <string name="guardar_medici_n">Guardar Medición</string>
+    <string name="fecha_ej_2024_05_20">Fecha (ej: 2024-05-20)</string>
+    <string name="ingrese_valor_actual">Ingrese valor actual</string>
+    <string name="seleccione_tipo_de_medidor">Seleccione tipo de medidor:</string>
+    <string name="nuevo_registro_de_medidor">Nuevo Registro de Medidor</string>
+    <string name="agua">Agua</string>
+    <string name="luz">Luz</string>
+    <string name="gas">Gas</string>
+    <string name="tipo">TIPO</string>
+    <string name="_0_000">0.000</string>
+    <string name="_11_01_2026">01-01-2024</string>
+</resources>

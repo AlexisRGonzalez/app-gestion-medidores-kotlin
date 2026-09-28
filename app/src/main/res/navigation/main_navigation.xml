@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/listaMedidoresFragment">
+
+    <fragment
+        android:id="@+id/listaMedidoresFragment"
+        android:name="cl.alexis.p2.exa_p2_alexisr.ListaMedidoresFragment"
+        android:label="fragment_lista_medidores"
+        tools:layout="@layout/fragment_lista_medidores" >
+        <action
+            android:id="@+id/action_listaMedidoresFragment_to_registroMedidorFragment"
+            app:destination="@id/registroMedidorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroMedidorFragment"
+        android:name="cl.alexis.p2.exa_p2_alexisr.RegistroMedidorFragment"
+        android:label="fragment_registro_medidor"
+        tools:layout="@layout/fragment_registro_medidor" />
+</navigation>
